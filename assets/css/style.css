@@ -1,0 +1,44 @@
+/* TO DO: Use universal selectors */
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: 
+        fixed 
+        padding-box 
+        black 
+        url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vertical_Aerospace%27s_second_prototype%2C_Seraph.jpg/1024px-Vertical_Aerospace%27s_second_prototype%2C_Seraph.jpg) 
+        center 
+        no-repeat;
+    background-size: cover;
+}
+
+/* TO DO: Use element selectors */
+header {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* TO DO: Use class selectors */
+.form-section {
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-form {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seraph-photo-credits {
+    font-size: 10px;
+}
+
+button {
+    margin-top: 5px;
+}
+
+footer {
+    position:fixed;
+    bottom: 2%;
+    right: 2%;
+    font-size: 8px;
+}
